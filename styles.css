@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: rgb(25, 25, 29);
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  color: white;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+.container
+{
+text-align: center;
+width: 300px;
+margin: 60px auto;
+}
+
+.username{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  color: white;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+}
+
+img.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 4px;
+  border: white solid 4px;
+}
+
+ul {
+  margin: 48px 0;
+  list-style: none;
+}
+
+ul li a {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(65, 1, 148);
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
+ul li a:hover{
+  background: white;
+  color: black;
+
+}
+
+footer{
+  font-weight: 500;
+  font-size: 12px;
+  color: white;
+  opacity: 0.6;
+}
+
+footer:hover{
+  opacity: 1;
+}
+
+footer a {
+  color: blue;
+}
